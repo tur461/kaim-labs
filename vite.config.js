@@ -7,6 +7,7 @@ export default defineConfig({
     hmr: {
     overlay: false,
     }
-  }
+  },
+  base: '/kaim-labs/',
 });
 
