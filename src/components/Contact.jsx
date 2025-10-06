@@ -15,8 +15,8 @@ const Contact = () => (
     <div className="mb-8 flex flex-col md:flex-row justify-center items-center gap-6">
       <p className="text-lg">
         Email:{" "}
-        <a href="mailto:contact@kaimlabs.com" className="underline font-semibold hover:text-green-400 transition-colors">
-          contact@kaimlabs.com
+        <a href="mailto:contact@kaimlabs.space" className="underline font-semibold hover:text-green-400 transition-colors">
+          contact@kaimlabs.space
         </a>
       </p>
       <p className="text-lg">
@@ -28,7 +28,7 @@ const Contact = () => (
     </div>
 
     <a
-      href="mailto:contact@kaimlabs.com"
+      href="mailto:contact@kaimlabs.space"
       className="bg-green-500 text-white px-8 py-3 rounded-lg font-semibold shadow-lg hover:bg-green-600 hover:scale-105 transition-all duration-300"
     >
       Join Our Community
