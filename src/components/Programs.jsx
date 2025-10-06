@@ -231,6 +231,7 @@ Master full-stack ethical hacking, incident response, and real-world projects.
         Explore our current and upcoming programs designed for hands-on learning and real-world application.
       </p>
 
+
       <div className="max-w-6xl mx-auto space-y-6">
         {programGroups.map((group) => (
           <div key={group.groupTitle} className="bg-white rounded shadow-md overflow-hidden">

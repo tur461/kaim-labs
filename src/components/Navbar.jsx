@@ -4,30 +4,28 @@ import { HiMenu, HiX } from "react-icons/hi"; // Hamburger icons
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const sections = ["About", "Skills", "Programs", "Projects", "Philosophy", "Contact"];
+  const formLink = "https://forms.gle/Rac5j2CmuPccS4NaA"; // Your Google Form link
 
   return (
     <nav className="fixed top-0 left-0 w-full bg-white shadow z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
 
-        <div className="flex items-center space-x-3">
-          <a
-            href="#root"
-            className="flex items-center space-x-2 hover:scale-105 transition-transform duration-200"
-          >
-            <img
-              src={logo}
-              alt="KAIM Labs Logo"
-              className="w-12 h-10 md:w-14 md:h-12 object-contain"
-            />
-            <span className="font-extrabold text-xl md:text-2xl text-[#1A237E] hover:text-green-500 transition-colors">
-              KAIM Labs
-            </span>
-          </a>
-        </div>
+        <a
+          href="#root"
+          className="flex items-center space-x-2 hover:scale-105 transition-transform duration-200"
+        >
+          <img
+            src={logo}
+            alt="KAIM Labs Logo"
+            className="w-12 h-10 md:w-14 md:h-12 object-contain"
+          />
+          <span className="font-extrabold text-xl md:text-2xl text-[#1A237E] hover:text-green-500 transition-colors">
+            KAIM Labs
+          </span>
+        </a>
 
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex items-center space-x-6">
           {sections.map((section) => (
             <a
               key={section}
@@ -37,6 +35,15 @@ const Navbar = () => {
               {section}
             </a>
           ))}
+
+          <a
+            href={formLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-green-600 hover:scale-105 transition-all duration-300"
+          >
+            Register Now
+          </a>
         </div>
 
         <div className="md:hidden">
@@ -62,6 +69,15 @@ const Navbar = () => {
                 {section}
               </a>
             ))}
+
+            <a
+              href={formLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 text-white px-4 py-2 rounded-lg font-semibold shadow-lg hover:bg-green-600 hover:scale-105 transition-all duration-300"
+            >
+              Register Now
+            </a>
           </div>
         </div>
       )}
