@@ -23,7 +23,7 @@ const Footer = () => (
           link: "https://www.linkedin.com/in/a-a-88498a22b/",
         },
         { name: "GitHub", link: "https://github.com/tur461" },
-        { name: "X", link: "http://x.com/tur4611" },
+        { name: "X", link: "http://x.com/tur461" },
         {
           name: "UpScrolled",
           link: "https://share.upscrolled.com/en/user/c557f142-9867-461e-8527-2e71c1219619/",
