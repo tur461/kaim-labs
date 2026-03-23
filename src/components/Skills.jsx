@@ -4,7 +4,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming & Software",
-      desc: "Hands-on experience with Rust, Go, Node.js, React.js, Haskell, Bash, Lua, WASM, Perl, Ruby, Erlang, Python. Focus on project-driven learning and real-world applications.",
+      desc: "Hands-on experience with Rust, Go, Node.js, React.js, Haskell, Bash, Php, Wasm, Python, Java, and more. Algorithms, data structures, and problem-solving. Machine learning, AI, and web development. Focus on project-driven learning and real-world applications.",
     },
     {
       title: "Embedded Systems & Electronics",
@@ -12,7 +12,7 @@ const Skills = () => {
     },
     {
       title: "Cybersecurity & Networking",
-      desc: "Penetration testing, Cryptography, Blockchain protocols, Network setup & troubleshooting. VPNs, Learn ethical hacking, security audits, and network defense.",
+      desc: "Penetration testing, Cryptography, Blockchain protocols, Network setup & troubleshooting. VPNs, Learn ethical hacking, security audits, Reverse engineering and network defense.",
     },
     {
       title: "DevOps & Cloud",
