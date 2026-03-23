@@ -213,10 +213,165 @@ Master full-stack ethical hacking, incident response, and real-world projects.
 - Outcome: Full-spectrum cybersecurity mastery for professional or freelance projects.
 `
       }
-    ]
-  }
-];
+  ]
+},
+  {
+  groupTitle: "1-Year Islamic Education (Fundamentals to Advanced)",
+  programs: [
+    {
+      title: "Stage 1: Foundations of Knowing",
+      status: "Available",
+      duration: "Module",
+      description: `
+Epistemology & Logic
 
+• Sources of Knowledge (Ma‘rifah)
+  - Knowledge (‘ilm) vs opinion (ẓann)
+  - Sources: Sensory perception (ḥiss), Intellect (‘aql), Revelation (waḥy)
+  - Levels of certainty (yaqīn)
+
+• Logic (Manṭiq)
+  - Concept (taṣawwur) vs judgment (taṣdīq)
+  - Syllogism (qiyās)
+  - Avoiding fallacies
+
+Outcome: Learn how to think correctly before forming beliefs.
+`
+    },
+    {
+      title: "Stage 2: Metaphysics",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Existence vs Essence (Wujūd vs Māhiyyah)
+• Contingent vs Necessary Being (mumkin vs wājib)
+• Gradation of existence (tashkīk al-wujūd)
+
+• Proof of God
+  - Contingency argument (Burhān al-imkān)
+  - Proof of the truthful (Burhān al-ṣiddīqīn)
+  - Critique of atheism & materialism
+
+Outcome: Rational understanding of existence and God.
+`
+    },
+    {
+      title: "Stage 3: Divine Unity",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Levels of Unity (Tawḥīd)
+  - Unity of Essence (Tawḥīd al-Dhāt)
+  - Unity of Attributes (Tawḥīd al-Ṣifāt)
+  - Unity of Actions (Tawḥīd al-Af‘āl)
+  - Unity in Worship (Tawḥīd al-‘Ibādah)
+
+• Divine Attributes (Ṣifāt Ilāhiyyah)
+  - Knowledge, Power, Life
+  - Transcendence (tanzīh)
+
+• Divine Justice (ʿAdl)
+  - Rational good & evil (ḥusn wa qubḥ ‘aqlī)
+  - Problem of evil
+
+Outcome: Deep understanding of Divine Unity.
+`
+    },
+    {
+      title: "Stage 4: Prophethood",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Need for Revelation
+• Philosophy of Prophethood (Nubuwwah)
+• Infallibility (‘iṣmah)
+• Finality of Prophet Muhammad
+
+Outcome: Understanding necessity and role of Prophets.
+`
+    },
+    {
+      title: "Stage 5: Leadership (Imāmah)",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Necessity of Leadership (Imāmah)
+• Nature of the Imām
+  - Infallibility (‘iṣmah)
+  - Divine knowledge (‘ilm ladunnī)
+
+• Line of Imāms (Ahl al-Bayt)
+• Role of Imam Mahdi (occultation & return)
+
+Outcome: Core understanding of divinely guided leadership.
+`
+    },
+    {
+      title: "Stage 6: Afterlife",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Philosophy of the Afterlife (Maʿād)
+• Intermediate realm (Barzakh)
+• Resurrection
+• Judgment, Paradise & Hell
+
+Outcome: Understanding accountability and life after death.
+`
+    },
+    {
+      title: "Stage 7: Spirituality & Mysticism",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Journey of the soul (Sulūk)
+• Levels of the self (nafs)
+  - Commanding (ammārah)
+  - Self-reproaching (lawwāmah)
+  - Tranquil (muṭma’innah)
+
+• Gnosis (Ma‘rifah)
+• Spiritual authority (Wilāyah)
+• Unity of Being (Wahdat al-Wujūd)
+
+Outcome: Inner and spiritual dimension of faith.
+`
+    },
+    {
+      title: "Stage 8: Integration",
+      status: "Available",
+      duration: "Module",
+      description: `
+• Faith & Action (‘aqīdah and ethics)
+• Intention (niyyah)
+
+• Contemporary challenges:
+  - Secularism
+  - Atheism
+  - Science vs religion
+  - Doubts & responses
+
+Outcome: Apply theology in real-world life.
+`
+    },
+    {
+      title: "Full Curriculum Overview",
+      status: "Available",
+      duration: "1 Year",
+      description: `
+Complete structured journey through theology, philosophy, and spirituality.
+
+Outcome:
+• Strong intellectual foundation
+• Clarity in beliefs
+• Ability to respond to modern challenges
+• Spiritual growth with rational grounding
+`
+    }
+  ]
+}
+
+];
 
   const [openGroups, setOpenGroups] = useState({});
 

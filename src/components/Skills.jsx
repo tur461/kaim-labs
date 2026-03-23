@@ -22,6 +22,10 @@ const Skills = () => {
       title: "Systems Thinking",
       desc: "Hardware-software integration, Distributed systems, Decentralized applications, Performance optimization. Understand the full technology stack for complex projects.",
     },
+    {
+      title: "Islamic Theology & Philosophy",
+      desc: "Structured study of epistemology, metaphysics, theology, and spirituality. Covers logic, proof of God, oneness, prophethood, leadership, afterlife and so on.",
+    }
   ];
 
   return (
@@ -37,7 +41,9 @@ const Skills = () => {
         {skillCategories.map((skill) => (
           <div
             key={skill.title}
-            className="bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300"
+            className={`bg-gray-50 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-300 ${
+                      skill.title.includes("Islamic") ? "border border-green-200" : ""
+            }`}
           >
             <h3 className="font-bold text-xl md:text-2xl mb-3 text-[#1A237E] hover:text-green-500 transition-colors">
               {skill.title}
